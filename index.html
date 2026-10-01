@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="접으면 작아지는 텀블러 FOLD를 소개하는 가상 펀딩 페이지입니다."
+    />
+    <title>FOLD | 접이식 텀블러 펀딩</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="#hero">FOLD</a>
+        <nav class="site-nav" aria-label="주요 메뉴">
+          <a href="#funding">펀딩 현황</a>
+          <a href="#detail">제품 정보</a>
+          <a href="#colors">색상</a>
+          <a href="#story">스토리</a>
+        </nav>
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="어두운 화면으로 변경"
+        >
+          ◐
+        </button>
+      </div>
+      <div class="progress-bar" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Reusable · 350ml</p>
+            <h1 class="hero-title">
+              가방에서<br />자리를 차지하지 않는<br /><em>텀블러</em>
+            </h1>
+            <p class="hero-lead">
+              다 마신 뒤에는 45mm 높이로 접어 보관할 수 있습니다. 가볍게 챙기고,
+              편하게 다시 사용하세요.
+            </p>
+
+            <dl class="spec-row">
+              <div class="spec">
+                <dt>용량</dt>
+                <dd>350<small>ml</small></dd>
+              </div>
+              <div class="spec">
+                <dt>무게</dt>
+                <dd>98<small>g</small></dd>
+              </div>
+              <div class="spec">
+                <dt>접은 높이</dt>
+                <dd>45<small>mm</small></dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-visual">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+
+            <div class="tumbler-wrap">
+              <svg
+                class="tumbler"
+                id="hero-tumbler"
+                viewBox="0 0 140 300"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="접이식 텀블러 그림"
+              >
+                <g class="tumbler-open">
+                  <rect
+                    class="fill-accent"
+                    x="34"
+                    y="16"
+                    width="72"
+                    height="20"
+                    rx="4"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="30"
+                    y="34"
+                    width="80"
+                    height="16"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-lime"
+                    x="78"
+                    y="20"
+                    width="22"
+                    height="12"
+                    rx="2"
+                  />
+
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="54"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="76"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="98"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="120"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="142"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="164"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="186"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="26"
+                    y="208"
+                    width="88"
+                    height="20"
+                    rx="3"
+                  />
+
+                  <rect
+                    class="fill-metal"
+                    x="30"
+                    y="232"
+                    width="80"
+                    height="42"
+                    rx="6"
+                  />
+                  <rect
+                    class="fill-accent"
+                    x="38"
+                    y="248"
+                    width="30"
+                    height="5"
+                    rx="2.5"
+                  />
+                </g>
+
+                <g class="tumbler-folded">
+                  <rect
+                    class="fill-accent"
+                    x="34"
+                    y="116"
+                    width="72"
+                    height="18"
+                    rx="4"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="30"
+                    y="132"
+                    width="80"
+                    height="14"
+                    rx="3"
+                  />
+                  <rect
+                    class="fill-lime"
+                    x="78"
+                    y="120"
+                    width="22"
+                    height="10"
+                    rx="2"
+                  />
+
+                  <rect
+                    class="fill-body"
+                    x="27"
+                    y="150"
+                    width="86"
+                    height="9"
+                    rx="2"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="27"
+                    y="161"
+                    width="86"
+                    height="9"
+                    rx="2"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="27"
+                    y="172"
+                    width="86"
+                    height="9"
+                    rx="2"
+                  />
+                  <rect
+                    class="fill-body"
+                    x="27"
+                    y="183"
+                    width="86"
+                    height="9"
+                    rx="2"
+                  />
+
+                  <rect
+                    class="fill-metal"
+                    x="30"
+                    y="196"
+                    width="80"
+                    height="42"
+                    rx="6"
+                  />
+                  <rect
+                    class="fill-accent"
+                    x="38"
+                    y="212"
+                    width="30"
+                    height="5"
+                    rx="2.5"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <button
+              class="fold-button"
+              type="button"
+              aria-controls="hero-tumbler"
+              aria-pressed="false"
+            >
+              접어 보기
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="funding">
+        <div class="container">
+          <p class="eyebrow">Funding status · D-12</p>
+
+          <div class="funding-head">
+            <strong class="percent">143%</strong>
+            <p class="funding-sub">
+              목표 5,000,000원 중 <span class="num">7,150,000</span>원 모임
+            </p>
+          </div>
+
+          <div
+            class="gauge"
+            id="gauge"
+            role="img"
+            aria-label="목표 금액의 143퍼센트 달성"
+          >
+            <span class="gauge-fill"></span>
+          </div>
+          <div class="gauge-legend">
+            <span>0%</span><span>목표 100% 달성</span>
+          </div>
+
+          <dl class="stat-row">
+            <div class="stat">
+              <dt>후원자</dt>
+              <dd><span class="num">231</span><small>명</small></dd>
+            </div>
+            <div class="stat">
+              <dt>1인 평균</dt>
+              <dd><span class="num">30,952</span><small>원</small></dd>
+            </div>
+            <div class="stat">
+              <dt>남은 기간</dt>
+              <dd>D-<span class="num">12</span></dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="detail">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Product detail</p>
+            <h2>작게 접고, 간단하게 씻어요</h2>
+            <p>제품의 구조와 크기를 한눈에 확인할 수 있도록 정리했습니다.</p>
+          </div>
+
+          <div class="detail-grid">
+            <div class="product-preview">
+              <svg
+                viewBox="0 0 160 310"
+                role="img"
+                aria-label="FOLD 텀블러 제품 모습"
+              >
+                <rect
+                  class="preview-accent"
+                  x="42"
+                  y="18"
+                  width="76"
+                  height="20"
+                  rx="4"
+                />
+                <rect
+                  class="preview-body"
+                  x="38"
+                  y="36"
+                  width="84"
+                  height="17"
+                  rx="3"
+                />
+                <rect
+                  class="preview-body"
+                  x="34"
+                  y="58"
+                  width="92"
+                  height="24"
+                  rx="4"
+                />
+                <rect
+                  class="preview-body"
+                  x="34"
+                  y="84"
+                  width="92"
+                  height="24"
+                  rx="4"
+                />
+                <rect
+                  class="preview-body"
+                  x="34"
+                  y="110"
+                  width="92"
+                  height="24"
+                  rx="4"
+                />
+                <rect
+                  class="preview-body"
+                  x="34"
+                  y="136"
+                  width="92"
+                  height="24"
+                  rx="4"
+                />
+                <rect
+                  class="preview-body"
+                  x="34"
+                  y="162"
+                  width="92"
+                  height="24"
+                  rx="4"
+                />
+                <rect
+                  class="preview-body"
+                  x="34"
+                  y="188"
+                  width="92"
+                  height="24"
+                  rx="4"
+                />
+                <rect
+                  class="preview-metal"
+                  x="38"
+                  y="217"
+                  width="84"
+                  height="46"
+                  rx="7"
+                />
+                <rect
+                  class="preview-accent"
+                  x="47"
+                  y="235"
+                  width="32"
+                  height="6"
+                  rx="3"
+                />
+                <line
+                  class="dimension-line"
+                  x1="140"
+                  y1="18"
+                  x2="140"
+                  y2="263"
+                />
+                <text
+                  class="dimension-text"
+                  x="149"
+                  y="145"
+                  transform="rotate(90 149 145)"
+                >
+                  180mm
+                </text>
+              </svg>
+            </div>
+
+            <div class="detail-cards">
+              <article class="detail-card">
+                <span>01</span>
+                <h3>세 부분으로 분리</h3>
+                <p>
+                  뚜껑, 실리콘 본체, 스테인리스 하단을 분리해서 세척할 수
+                  있습니다.
+                </p>
+              </article>
+
+              <article class="detail-card">
+                <span>02</span>
+                <h3>180mm에서 45mm로</h3>
+                <p>
+                  음료를 다 마신 뒤 본체를 눌러 접으면 높이가 4분의 1로
+                  줄어듭니다.
+                </p>
+                <div
+                  class="size-compare"
+                  aria-label="펼쳤을 때와 접었을 때 높이 비교"
+                >
+                  <div>
+                    <div class="size-bar open"></div>
+                    <b>180mm</b>
+                  </div>
+                  <div>
+                    <div class="size-bar folded"></div>
+                    <b>45mm</b>
+                  </div>
+                </div>
+              </article>
+
+              <article class="detail-card">
+                <span>03</span>
+                <h3>제품 크기</h3>
+                <dl class="dim-table">
+                  <div>
+                    <dt>용량</dt>
+                    <dd>350ml</dd>
+                  </div>
+                  <div>
+                    <dt>지름</dt>
+                    <dd>88mm</dd>
+                  </div>
+                  <div>
+                    <dt>무게</dt>
+                    <dd>98g</dd>
+                  </div>
+                </dl>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="colors">
+        <div class="container">
+          <p class="eyebrow">Colors</p>
+          <h2>좋아하는 색을 골라 보세요</h2>
+          <div class="swatch-row" aria-label="제품 색상 선택">
+            <button
+              class="swatch active"
+              type="button"
+              data-color="#35c74f"
+              data-name="스프링 그린"
+              aria-pressed="true"
+              aria-label="스프링 그린"
+              style="background: #35c74f"
+            ></button>
+            <button
+              class="swatch"
+              type="button"
+              data-color="#c9f04c"
+              data-name="라임"
+              aria-pressed="false"
+              aria-label="라임"
+              style="background: #c9f04c"
+            ></button>
+            <button
+              class="swatch"
+              type="button"
+              data-color="#5b7f6a"
+              data-name="세이지"
+              aria-pressed="false"
+              aria-label="세이지"
+              style="background: #5b7f6a"
+            ></button>
+          </div>
+          <p class="color-name" id="color-name" aria-live="polite">
+            선택: 스프링 그린
+          </p>
+
+          <dl class="spec-grid">
+            <div>
+              <dt>소재</dt>
+              <dd>식품용 실리콘 · STS304</dd>
+            </div>
+            <div>
+              <dt>인증</dt>
+              <dd>BPA-free · KC</dd>
+            </div>
+            <div>
+              <dt>내열</dt>
+              <dd>-20℃ ~ 120℃</dd>
+            </div>
+            <div>
+              <dt>세척</dt>
+              <dd>식기세척기 사용 가능</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="story">
+        <div class="container">
+          <p class="eyebrow">Brand story</p>
+          <h2 class="story-title">짐이 되지 않는 습관, FOLD</h2>
+
+          <div class="story-content">
+            <p>
+              텀블러를 챙겨 나왔지만, 음료를 다 마신 뒤 빈 통이 가방 자리를
+              차지해 불편했던 경험에서 시작했습니다.
+            </p>
+            <blockquote>다 마시면 접어서 가볍게 보관하세요.</blockquote>
+            <p>
+              180mm 높이의 텀블러가 45mm로 줄어들어 작은 가방에도 넣기 쉽습니다.
+              매일 부담 없이 사용할 수 있는 텀블러를 만들고 싶었습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="cta-bar">
+      <div class="container">
+        <p class="status"><b>143% 달성</b> · 231명 참여 · D-12</p>
+        <a class="btn" href="#funding">펀딩 정보 보기</a>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <dl class="footer-grid">
+          <div>
+            <dt>창작자</dt>
+            <dd>FOLD · 대표 송OO</dd>
+          </div>
+          <div>
+            <dt>배송 예정</dt>
+            <dd>2026.10 순차 발송</dd>
+          </div>
+          <div>
+            <dt>문의</dt>
+            <dd>fold@fold.example</dd>
+          </div>
+        </dl>
+        <p class="portfolio-note">
+          포트폴리오를 위해 만든 가상의 펀딩 페이지입니다.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

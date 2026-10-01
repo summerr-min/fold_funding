@@ -1,0 +1,149 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(247, 245, 239, 0.95);
+  border-bottom: 1px solid #deddd6;
+}
+
+.site-header .container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.site-nav {
+  display: flex;
+  gap: 28px;
+}
+
+.site-nav a {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  color: #249c3a;
+}
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #bcbdb7;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #1f2420;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 0;
+  height: 3px;
+  background-color: #35c74f;
+}
+
+.cta-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 900;
+  background-color: #1f2420;
+  color: #ffffff;
+}
+
+.cta-bar .container {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cta-bar .status {
+  font-size: 14px;
+}
+
+.cta-bar .btn {
+  padding: 12px 22px;
+  border-radius: 4px;
+  background-color: #35c74f;
+  color: #102014;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.site-footer {
+  padding: 70px 0 110px;
+  background-color: #111411;
+  color: #ffffff;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.footer-grid dt {
+  margin-bottom: 6px;
+  color: #9aa19a;
+  font-size: 12px;
+}
+
+.footer-grid dd {
+  font-size: 14px;
+}
+
+.portfolio-note {
+  margin-top: 40px;
+  color: #8d938d;
+  font-size: 12px;
+}
+
+body.dark-mode .site-header {
+  background-color: rgba(23, 27, 24, 0.95);
+  border-bottom-color: #3c423d;
+}
+
+body.dark-mode .theme-toggle {
+  border-color: #636a64;
+  background-color: #262c28;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .site-header .container {
+    height: 62px;
+  }
+
+  .site-nav {
+    display: none;
+  }
+
+  .cta-bar .container {
+    min-height: 64px;
+  }
+
+  .cta-bar .status {
+    font-size: 12px;
+  }
+
+  .cta-bar .btn {
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
